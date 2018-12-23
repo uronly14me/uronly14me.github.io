@@ -1,5 +1,5 @@
-title:            Blog Title
-description:      Describe your website here.
+title:            못먹어도 고
+description:      개발 일지
 
 # put your disqus here
 disqus_shortname:
@@ -30,7 +30,7 @@ menu:
 owner:
   name:           Han Sangbeom
   site:           http://uronly14me.github.io
-  avatar:         images/avatar.jpg
+  avatar:         images/profile.png
   bio:            "못 먹어도 고"
   email:          uronly14me@gmail.com
   # GitHub nick for use in follow button in author block.
