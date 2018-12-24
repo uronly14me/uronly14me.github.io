@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: dark-post
 title: 깃허브 https로 사용하기
 modified:
 categories: common
