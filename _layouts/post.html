@@ -31,8 +31,7 @@
         {% if page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
     </div><!-- /.entry-content -->
-    {% include author.html %}
-    {% if page.comments != false and site.disqus_shortname %}<section id="disqus_thread"></section><!-- /#disqus_thread -->{% endif %}
+    {% include comments.html %}
     {% if site.related_posts.size > 0 %}{% include read-more.html %}{% endif %}
   </article>
 </div><!-- /#main -->
@@ -40,13 +39,6 @@
 {% include scripts.html %}
 
 <div class="footer-wrapper">
-  <script src="https://utteranc.es/client.js"
-    repo="uronly14me/uronly14me.github.io"
-    issue-term="pathname"
-    theme="github-light"
-    crossorigin="anonymous"
-    async>
-  </script>
   <footer role="contentinfo">
     {% include footer.html %}
   </footer>
